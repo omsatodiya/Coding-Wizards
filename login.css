@@ -7,30 +7,33 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
     background-color: aqua;
-    background: url(https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg);
+    background: url(https://img.freepik.com/free-vector/realistic-travel-background-with-elements_52683-77784.jpg?w=996&t=st=1710074085~exp=1710074685~hmac=297e8955fbe90c7f3c7cf82f5f5d254ad3091ddc5e10d375b6ab3b1d8861df59); 
+    /* background: url(https://www.shutterstock.com/image-illustration/travel-world-road-trip-tourism-260nw-390581587.jpg); */
+    /* background: url(https://t4.ftcdn.net/jpg/04/60/71/01/360_F_460710131_YkD6NsivdyYsHupNvO3Y8MPEwxTAhORh.jpg);*/
+   /* background: url(https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg); */
     background-position: center;
-    
+    align-items: center;
+    background-size:  cover;
 }
 .c1{
     width: 350px;
     background-color: transparent;
-    color:#fff;
+    color:#121111;
     border-radius: 16px;
     padding: 16px 15px;
-    border: 3px solid rgba(255, 255, 255,0.2);
+    border: 3.5px solid hsla(182, 36%, 71%, 0.782);
     backdrop-filter: blur(20px);
+    height:auto;
 }
 .c1 h1{
     font-size: 30px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .c1 .c2{
@@ -41,7 +44,6 @@ body{
 }
 .c2 input{
     position: relative;
-    box-shadow: 4px 3px 5px black;
     width: 70%;
     height:70%;
     background: transparent;    
@@ -51,12 +53,13 @@ body{
     border-radius: 50px;
     font-size: 16px;
     padding: 20px;
-    color: #fff;
+    color: #181717;
+    box-shadow: 4px 3px 5px black;
+    
 }
-
 .c2 input::placeholder{
-    color: #fff;
-}
+    color: #171717;
+} 
 .c1 .c3{
   display: flex;
   justify-content: space-between;
@@ -64,10 +67,10 @@ body{
   margin: 15px;
 }
 .c3 label input{
-    color: #fff;
+    color: #262424;
 }
 .c3 a{
-    color: #fff;
+    color: #171616;
 }
 .c1 .button{
     width: 100%;
@@ -76,7 +79,7 @@ body{
     font-size: 16px;
     color: #333;
     font-weight: 500;
-    box-shadow: 4px 3px 5px black;
+    box-shadow: 4px 3px 5px bla;
 }
 .c1 .c5{
     font-size: 16px;
@@ -85,7 +88,7 @@ body{
 }
 
 .c1 .c5 p a{
-            color: #fff;
+            color: #171717;
             text-decoration: none;
             font-weight: 600;
             margin: 16px;

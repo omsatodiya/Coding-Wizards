@@ -56,22 +56,25 @@ header .navbar a:hover{
   color: var(--blue);
 }
 
-header .icons i{
-    font-size: 2rem;
+header .icons i,label{
+  font-size: 2rem;
   color: #fff;
   cursor: pointer;
   margin-right: 1.7rem;
 }
 
-header .icons i:hover{
+header .icons i:hover,label:hover{
   color: var(--blue);
 }
+
+/* Footer CSS */
 
 footer{
   background-color: #333;
   height: 30vh;
   display: flex;
   flex-direction: column;
+  width: 100vw;
 }
 
 .foot1{
@@ -95,7 +98,7 @@ footer{
   font-size: 1.2rem;
 }
 
-.about,.help,.consumer-policy,.mail-us{
+.about,.help,.consumer-policy,.mail-us,.offices{
   margin: 20px;
   display: flex;
   flex-direction: column;
@@ -138,4 +141,45 @@ footer{
 .foot2 span{
   font-size: medium;
   color: var(--blue);
+}
+
+/* hamburger menu  */
+.icons label{
+  display: none;
+}
+
+/* Hamburger menu media queries */
+@media only screen and (max-width: 1080px){
+  .icons{
+    display: flex;
+  }
+
+  .icons label{
+    display: block;
+  }
+
+  .navbar{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  footer{
+    display: none;
+  }
+  header .icons i,label{
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 1.7rem;
+  }
+
+  header .logo span{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: var(--blue);
+    text-transform: uppercase;
+  }
+
+
 }
